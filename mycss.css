@@ -1,0 +1,237 @@
+
+* {
+	box-sizing: border-box;
+}  
+
+body{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
+
+header{
+	margin-top: 1.5em;
+	position: absolute;
+	left:0;
+	right:0;
+	clear: both;
+	overflow: auto;
+}
+
+.name{
+	font-size: 4em;
+	color: #18ba60;
+	font-weight: 900;
+	margin: 0;
+}
+.navigation ul{ 
+	list-style: none;
+	margin: 0, auto; 
+	padding: 0;
+
+}
+.navigation li{
+	display: inline-block;
+	margin: 5px 1em;
+
+}
+
+.navigation a{
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0.5em;
+	color: white;
+
+
+}
+.intro{
+	background:linear-gradient(90deg, rgb(0,0,0,0.3), rgb(0,0,0,0.6)), url(pic2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	padding: 10em 0;
+	color: white;
+}  
+
+.content-intro{
+	margin-top: 5em;
+	overflow: auto;
+}
+
+.content-intro h1{
+	margin-top: 1.5em;
+	font-size: 2.5em;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+.content-intro span{
+	font-size: 15px;
+	font-weight: 400;
+	display:block;
+	margin-top: 10px;
+	line-height: 0;
+}
+
+.btn{
+	padding: 0.5em 2em;
+	margin-top: 1em;
+	background: #18ba60;
+	color: white;
+	font-weight: 400;
+	border: 2px solid #18ba60;
+	font text-transform: uppercase;
+	border-radius: 15px;
+	transition:all 0.2s linear;
+
+}
+.btn:hover{
+	background:white;
+	color: black;
+	border:2px solid #18ba60;
+}
+
+.about-me{
+	padding: 5em 0;
+	overflow: auto;
+}
+
+.about-me h4{
+	color: #18ba60;
+}
+
+.content-wrap{
+	width: 90%;
+	margin:0 auto;
+}
+
+.picture{
+	margin-top: 2em;
+	border-radius: 150px;
+	float: right;
+	overflow: hidden;
+	clear: both;
+	text-align: left;
+
+}
+
+.opposite-picture{
+	width: 65%;
+	float: left;
+	text-align:center;
+	overflow: hidden;
+	margin-top: 2em;
+	margin-left: 2em;
+
+}
+
+.opposite-picture p{
+	margin-top: 1.5em;
+}
+
+.social-media{
+	list-style: none;
+	padding: 0;
+}
+
+.social-media li{
+	text-decoration: none;
+	display: inline-block;
+	padding: 5px;
+}
+
+.social-media a{
+	border-radius: 50%;
+	border: 1px solid #444444;
+	width: 40px;
+	height: 40px;
+	display: block;
+	text-align: center;
+	line-height: 40px;
+	font-size: 1em; 
+	transistion:all 0.2s ease-in;
+	color: green;
+}
+
+
+.inner-page{
+	width:40%;
+	height:90%;
+	background-color: green; 
+	opacity: 0.6;
+	border-radius: 20%;
+	max-width: 40%;
+}
+
+.social-media a:hover{
+	color: #18ba60;
+	border: 1px solid #18ba60;
+}
+
+.work{
+	background:linear-gradient(90deg, rgba(0,0,0,0.7), rgb(24,186,96)), url(coding.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	padding: 5em 0;
+	color: white;
+	overflow: auto;
+}
+
+.left-col{
+	width: 20%;
+	float: left;
+	overflow: hidden;
+	margin-top: 2em;
+	clear: both;
+	text-align: left;
+}
+
+.right-col{
+	width: 65%;
+	float:right;
+	text-align: left;
+	overflow: hidden;
+	margin-top: 2em;
+}
+
+.left-col h3, h2, p{
+	margin: 5px 0;
+}
+
+hr{
+	border:2px solid white;
+	width: 100px;
+}
+
+.education{
+	overflow: auto;
+	margin:2.5em auto;
+}
+
+.contact-me{
+	background:linear-gradient(90deg, rgba(0,0,0,0.7), rgb(24,186,96)), url(images.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	padding: 5em 0;
+	color: white;
+	overflow: auto;
+
+}
+
+#edu-h1{
+	margin-top: 2.5em;
+
+}
+
+#edu-hr{
+	border:2px solid #18ba60;
+	width: 100px
+}
+
+.footer{
+	background: #000000;
+	padding: 5em 0;
+	color: white;
+	overflow: auto;
+}
